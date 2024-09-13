@@ -1,6 +1,6 @@
 import React from "react";
 
-export class Temporary extends React.Component {
+export class Temporary extends React.PureComponent {
   constructor() {
     super();
     console.log("Temporary: Constructor");

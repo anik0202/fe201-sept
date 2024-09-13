@@ -27,7 +27,7 @@ export class Controlled extends React.Component {
     console.log("Mounting: componentDidMount");
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(prevProps, prevState) {
     console.log("Updating: componentDidUpdate");
   }
 
